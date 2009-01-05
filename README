@@ -2,7 +2,7 @@ NAME
     Padre::Plugin::Encode - convert file to different encoding in Padre
 
 VERSION
-    This document describes Padre::Plugin::Encode version 0.0.1
+    This document describes Padre::Plugin::Encode version 0.1.2
 
 SYNOPSIS
         $>padre
@@ -22,7 +22,7 @@ INSTALLATION
         make install
 
 AUTHOR
-    Keedi Kim - 김도형 "<keedi@perl.kr>"
+    Keedi Kim - 김도형 "<keedi@cpan.org>"
 
 LICENCE AND COPYRIGHT
     Copyright (c) 2009, Keedi Kim - 김도형 "<keedi@cpan.org>". All rights

@@ -3,7 +3,7 @@ package Padre::Plugin::Encode;
 use strict;
 use warnings;
 
-use version; our $VERSION = qv('0.1.1');
+use version; our $VERSION = qv('0.1.2');
 
 use base 'Padre::Plugin';
 
@@ -15,8 +15,12 @@ use Padre::Wx         ();
 use Padre::Wx::Dialog ();
 
 my @ENCODINGS = qw(
-    utf-8
+    cp932
     cp949
+    euc-jp
+    euc-kr
+    shift-jis
+    utf-8
 );
 
 sub padre_interfaces {
@@ -101,7 +105,7 @@ Padre::Plugin::Encode - convert file to different encoding in Padre
 
 =head1 VERSION
 
-This document describes Padre::Plugin::Encode version 0.0.1
+This document describes Padre::Plugin::Encode version 0.1.2
 
 
 =head1 SYNOPSIS
@@ -129,7 +133,7 @@ To install this module, run the following commands:
 
 =head1 AUTHOR
 
-Keedi Kim - 김도형  C<< <keedi@perl.kr> >>
+Keedi Kim - 김도형  C<< <keedi@cpan.org> >>
 
 
 =head1 LICENCE AND COPYRIGHT

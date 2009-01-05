@@ -1,6 +1,6 @@
 --- #YAML:1.0
 name:                Padre-Plugin-Encode
-version:             0.1.1
+version:             0.1.2
 abstract:            convert file to different encoding in Padre
 license:             ~
 author:              
